@@ -1,56 +1,62 @@
-import TopLogo from "../top-logo/TopLogo.jsx";
 import logo from "../../assets/main-logo.png";
+import "./Navbar.css"
 
 const Navbar = () => {
     return (
-        <div className="p-2 bg-light">
-            <div className="d-flex align-items-center justify-content-center my-2">
-                <a href="#">
-                    <img src={logo} alt="Logo" className="img-fluid"/>
-                </a>
-            </div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container">
-                    <a className="navbar-brand" href="#">Home</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr className="dropdown-divider"/>
-                                    </li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search"
-                                   aria-label="Search"/>
-                            <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                        <div>
-                            ru | uz
-                        </div>
-                    </div>
+        <div className="navbar">
+            <div className="container">
+                <div className="nav__logo">
+                    <a href="#">
+                        <img src={logo} alt="Logo" className="nav__logo-img"/>
+                    </a>
                 </div>
-            </nav>
+                <nav className="nav">
+                    <div className="burger none"></div>
+                    <ul className="nav__list">
+                        <li className="nav__item">
+                            <a className="nav__link active" href="#">Home</a>
+                        </li>
+                        <li className="nav__item">
+                            <a className="nav__link" href="#">About us</a>
+                        </li>
+                        <li className="nav__item dropdown">
+                            <a className="nav__link dropdown-toggle" href="#" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Production
+                            </a>
+                            {/*<ul className="dropdown-menu">*/}
+                            {/*    <li><a className="dropdown-item" href="#">Yarn</a></li>*/}
+                            {/*    <li><a className="dropdown-item" href="#">Knitting Department</a></li>*/}
+                            {/*    <li><a className="dropdown-item" href="#">Finished goods</a></li>*/}
+                            {/*</ul>*/}
+                        </li>
+                        <li className="nav__item dropdown">
+                            <a className="nav__link dropdown-toggle" href="#" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Winemaking
+                            </a>
+                            {/*<ul className="dropdown-menu">*/}
+                            {/*    <li><a className="dropdown-item" href="#">Spinning mill</a></li>*/}
+                            {/*    <li><a className="dropdown-item" href="#">Knitting shop</a></li>*/}
+                            {/*    <li><a className="dropdown-item" href="#">Dyeing Department</a></li>*/}
+                            {/*    <li><a className="dropdown-item" href="#">Cutting Department</a></li>*/}
+                            {/*    <li><a className="dropdown-item" href="#">Printing Department</a></li>*/}
+                            {/*    <li><a className="dropdown-item" href="#">Garment Factory</a></li>*/}
+                            {/*</ul>*/}
+                        </li>
+                        <li className="nav__item">
+                            <a className="nav__link" href="#">Cooperation</a>
+                        </li>
+                        <li className="nav__item">
+                            <a className="nav__link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                    <ul className="nav_lang">
+                        <li><a href="">En</a></li>
+                        <li><a href="">Ru</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     )
 }

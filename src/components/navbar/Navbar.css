@@ -1,0 +1,50 @@
+.navbar {
+    background: rgb(239, 242, 247);
+    padding: 15px 0;
+
+}
+
+.nav__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__logo-img {
+    object-position: center;
+    object-fit: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.nav__list {
+    display: flex;
+    gap: 10px;
+}
+
+.nav__item {
+    padding: 8px 12px;
+}
+
+.nav__link {
+    /*font-family: Noto Sans;*/
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.nav__link.active {
+    color: rgb(0, 132, 64);
+}
+
+.nav_lang {
+    display: flex;
+    gap: 10px;
+}
+
+.none {
+    display: none;
+}

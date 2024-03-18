@@ -1,6 +1,8 @@
- const HeroBg = () => {
+import "./HeroBg.css"
+
+const HeroBg = () => {
     return (
-        <div></div>
+        <div className="hero__bg"></div>
     )
 }
 

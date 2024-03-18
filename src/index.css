@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    /* dakatex.uz/Noto Sans/Bold 28 */
+    color: rgb(51, 51, 51);
+    /*font-family: Noto Sans;*/
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgb(0, 132, 64);
+}

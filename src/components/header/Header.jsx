@@ -1,12 +1,13 @@
+import "./Header.css"
 import Navbar from "../navbar/Navbar.jsx";
 import HeroBg from "../heroBg/HeroBg.jsx";
 
 const Header = () => {
     return (
-        <div>
+        <header className="header">
             <Navbar/>
             <HeroBg/>
-        </div>
+        </header>
     )
 }
 export default Header
