@@ -8,9 +8,7 @@ const Contacts = () => {
                 <div className="contacts__cards">
                     <div className="contacts__card">
                         <h3>Sewing and Printing</h3>
-                        <p>140118, Uzbekistan, Samarkand, st. Bedil, 24.</p>
-                        <h5>garment@dakatex.en</h5>
-
+                        <p>140118, Uzbekistan, Samarkand, st. Bedil, 24. <br/>garment@dakatex.en</p>
                         <ul>
                             <li>+998 99 573 22 23</li>
                             <li>+998 99 573 22 23</li>
@@ -18,9 +16,7 @@ const Contacts = () => {
                     </div>
                     <div className="contacts__card">
                         <h3>Sewing and Printing</h3>
-                        <p>140118, Uzbekistan, Samarkand, st. Bedil, 24.</p>
-                        <h5>garment@dakatex.en</h5>
-
+                        <p>140118, Uzbekistan, Samarkand, st. Bedil, 24. <br/>garment@dakatex.en</p>
                         <ul>
                             <li>+998 99 573 22 23</li>
                             <li>+998 99 573 22 23</li>
@@ -28,9 +24,7 @@ const Contacts = () => {
                     </div>
                     <div className="contacts__card">
                         <h3>Sewing and Printing</h3>
-                        <p>140118, Uzbekistan, Samarkand, st. Bedil, 24.</p>
-                        <h5>garment@dakatex.en</h5>
-
+                        <p>140118, Uzbekistan, Samarkand, st. Bedil, 24. <br/>garment@dakatex.en</p>
                         <ul>
                             <li>+998 99 573 22 23</li>
                             <li>+998 99 573 22 23</li>
