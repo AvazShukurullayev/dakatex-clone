@@ -42,17 +42,20 @@ const Factory = () => {
                 </p>
                 <ul>
                     <li>
-                        <FontAwesomeIcon icon={faCircle} className="circle"  /> <b>Spinning factory.</b> The spinning mill is equipped with a complete complex of Swiss made
+                        <FontAwesomeIcon icon={faCircle} className="circle"/> <b>Spinning factory.</b> The spinning mill
+                        is equipped with a complete complex of Swiss made
                         Reiter equipment and produces Ne 20/1 and Ne 30/1 carded yarns.
                     </li>
                     <li>
-                        <FontAwesomeIcon icon={faCircle} className="circle" /> <b>Sewing factory.</b> Today, the workshops are equipped with the latest Japanese sewing
+                        <FontAwesomeIcon icon={faCircle} className="circle"/> <b>Sewing factory.</b> Today, the
+                        workshops are equipped with the latest Japanese sewing
                         equipment JUKI and advanced technologies are used. We carry out the development, layout of
                         patterns, create product samples according to individual customer requests, improve technical
                         parameters and test.
                     </li>
                     <li>
-                        <FontAwesomeIcon icon={faCircle} className="circle" /> <b>Knitting shop.</b> We use circular knitting and flat knitting machines from leading
+                        <FontAwesomeIcon icon={faCircle} className="circle"/> <b>Knitting shop.</b> We use circular
+                        knitting and flat knitting machines from leading
                         manufacturers in Italy, Taiwan and China. There are single jersey and double jersey circular
                         knitting machines for the production of knitted fabrics of all popular types: single jersey,
                         double jersey (interlock), 2-thread and 3-thread terry, pique and rib. Natural organic cotton is
@@ -60,16 +63,19 @@ const Factory = () => {
                         and wear resistance.
                     </li>
                     <li>
-                        <FontAwesomeIcon icon={faCircle} className="circle" /> <b>Dyeing Department.</b> Dyeing of knitted fabrics on modern Turkish and Italian equipment
+                        <FontAwesomeIcon icon={faCircle} className="circle"/> <b>Dyeing Department.</b> Dyeing of
+                        knitted fabrics on modern Turkish and Italian equipment
                         using high-quality dyes provides the highest colour accuracy, light fastness and washing
                         resistance.
                     </li>
                     <li>
-                        <FontAwesomeIcon icon={faCircle} className="circle" /> <b>Cutting Department</b> - ultra-precise cutting of fabrics using Bullmer automatic cutting
+                        <FontAwesomeIcon icon={faCircle} className="circle"/> <b>Cutting Department</b> - ultra-precise
+                        cutting of fabrics using Bullmer automatic cutting
                         equipment guarantees higher efficiency and quality of the finished product.
                     </li>
                     <li>
-                        <FontAwesomeIcon icon={faCircle} className="circle" /> <b>Printing Department </b> - we carry out silkscreen printing of any complexity using advanced
+                        <FontAwesomeIcon icon={faCircle} className="circle"/> <b>Printing Department </b> - we carry out
+                        silkscreen printing of any complexity using advanced
                         printing machines with subsequent fixation in the drying machine.
                     </li>
                 </ul>
@@ -79,16 +85,30 @@ const Factory = () => {
                     manufacturer DAKA-TEX?
                 </p>
                 <ul>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> We are in the TOP 10 Uzbek factories for the production of knitwear.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> We produce 300 tons of dyed fabric per month.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> 12 lines of sewing production are systematically adjusted and functioning.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> The company has hundreds of highly qualified employees.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> We produce about 500 thousand garments monthly.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> The production capacity of the print shop is more than 250 prints per month.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> 50% of customers come from referrals.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> Transparent pricing, the risk of additional costs is excluded.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> Prompt and careful delivery.</li>
-                    <li><FontAwesomeIcon icon={faCircle} className="circle" /> Warranty for all goods.</li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> We are in the TOP 10 Uzbek factories for
+                        the production of knitwear.
+                    </li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> We produce 300 tons of dyed fabric per
+                        month.
+                    </li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> 12 lines of sewing production are
+                        systematically adjusted and functioning.
+                    </li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> The company has hundreds of highly
+                        qualified employees.
+                    </li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> We produce about 500 thousand garments
+                        monthly.
+                    </li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> The production capacity of the print shop
+                        is more than 250 prints per month.
+                    </li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> 50% of customers come from referrals.</li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> Transparent pricing, the risk of
+                        additional costs is excluded.
+                    </li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> Prompt and careful delivery.</li>
+                    <li><FontAwesomeIcon icon={faCircle} className="circle"/> Warranty for all goods.</li>
                 </ul>
                 <p>
                     DAKA-TEX is a high-tech vertically integrated factory with the authority of a recognized leader in
@@ -96,27 +116,30 @@ const Factory = () => {
                     detailed consultation and find out everything about your benefits.
                 </p>
                 <a href="" className="cooperation__link">cooperation</a>
-
-                <div className="factory__numbers">
-                    <div className="factory__number">
-                        <span>icon</span>
-                        <h3>189</h3>
-                        <p>Tons of Yarn per Month</p>
-                    </div>
-                    <div className="factory__number">
-                        <span>icon</span>
-                        <h3>300</h3>
-                        <p>Tons of Dyed Fabric per Month</p>
-                    </div>
-                    <div className="factory__number">
-                        <span>icon</span>
-                        <h3>400</h3>
-                        <p>Thousand Units of Knitted Garments per Month</p>
-                    </div>
-                    <div className="factory__number">
-                        <span>icon</span>
-                        <h3>260</h3>
-                        <p>Thousand Prints per Month</p>
+            </div>
+            <div className="factory__numbers-bg">
+                <div className="container">
+                    <div className="factory__numbers">
+                        <div className="factory__number" style={{color: "lime"}}>
+                            <span>icon</span>
+                            <h3>189</h3>
+                            <p style={{color: "lime"}}>Tons of Yarn per Month</p>
+                        </div>
+                        <div className="factory__number" style={{color: "yellow"}}>
+                            <span>icon</span>
+                            <h3>300</h3>
+                            <p style={{color: "yellow"}}>Tons of Dyed Fabric per Month</p>
+                        </div>
+                        <div className="factory__number" style={{color: "purple"}}>
+                            <span>icon</span>
+                            <h3>400</h3>
+                            <p style={{color: "purple"}}>Thousand Units of Knitted Garments per Month</p>
+                        </div>
+                        <div className="factory__number" style={{color: "dodgerblue"}}>
+                            <span>icon</span>
+                            <h3>260</h3>
+                            <p style={{color: "dodgerblue"}}>Thousand Prints per Month</p>
+                        </div>
                     </div>
                 </div>
             </div>
