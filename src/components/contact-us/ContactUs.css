@@ -1,3 +1,6 @@
+.contact-us {
+    padding: 50px 0;
+}
 .contact-us__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
