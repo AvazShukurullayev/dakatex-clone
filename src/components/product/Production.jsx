@@ -22,13 +22,13 @@ const Production = () => {
                 </div>
             </div>
             <div className="production__cards">
-                <div className="production__card"></div>
+                <div className="production__card bg"></div>
                 <div className="production__card">
-                    <h2 className="title">Why us?</h2>
+                    <h2 className="title production__card-title">Why us?</h2>
                     <div className="production__infos">
                         <div className="production__info">
-                            <div className="production__info-icon">icon</div>
-                            <div>
+                            <div className="production__info-icon"></div>
+                            <div className="production__info-desc">
                                 <h4>Right on Time</h4>
                                 <p>
                                     Having worked in this industry for over XNUMX years, we are well aware that timing
@@ -37,8 +37,8 @@ const Production = () => {
                             </div>
                         </div>
                         <div className="production__info">
-                            <div className="production__info-icon">icon</div>
-                            <div>
+                            <div className="production__info-icon"></div>
+                            <div className="production__info-desc">
                                 <h4>New Technologies</h4>
                                 <p>
                                     Modern technologies and innovative approach are applied in our production with
@@ -48,8 +48,8 @@ const Production = () => {
                             </div>
                         </div>
                         <div className="production__info">
-                            <div className="production__info-icon">icon</div>
-                            <div>
+                            <div className="production__info-icon"></div>
+                            <div className="production__info-desc">
                                 <h4>Full Vertical Integration</h4>
                                 <p>
                                     Daka-Tex is a system of factories, including yarn spinning, knitting, dyeing,

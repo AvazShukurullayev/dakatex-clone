@@ -38,9 +38,7 @@ ul, ol, li {
 }
 
 .title {
-    /* dakatex.uz/Noto Sans/Bold 28 */
     color: rgb(51, 51, 51);
-    /*font-family: Noto Sans;*/
     font-size: 28px;
     font-weight: 700;
     line-height: 46px;
