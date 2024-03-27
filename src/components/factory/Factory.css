@@ -1,0 +1,72 @@
+.factory {
+    padding: 50px 0;
+}
+
+.factory__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 22px;
+}
+
+.factory__card img {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.factory__card-title {
+    color: rgb(51, 51, 51);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.factory__card-description {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.factory h4 {
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.factory p {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.factory ul {
+    margin-bottom: 1rem;
+}
+.factory ul li {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.factory .circle {
+    color: #7adb7a;
+}
