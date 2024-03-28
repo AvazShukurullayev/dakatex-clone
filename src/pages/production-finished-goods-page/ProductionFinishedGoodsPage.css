@@ -1,0 +1,4 @@
+.finished-goods__bg {
+    height: 80vh;
+    background: url("/src/assets/production-produt.jpeg") no-repeat center / cover;
+}
