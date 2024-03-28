@@ -1,0 +1,30 @@
+.production__yarn {
+
+}
+
+.production__yarn-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.production__yarn-card {
+    position: relative;
+}
+
+.production__yarn-card img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.production__yarn-card p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background:rgba(0,0,0,0.6);
+    width: 100%;
+    padding: 0.8rem 0;
+}

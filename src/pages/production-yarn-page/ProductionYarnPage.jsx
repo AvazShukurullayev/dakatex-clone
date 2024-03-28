@@ -1,9 +1,11 @@
+import "./ProductionYarnPage.css"
+
 export const ProductionYarnPage = () => {
     return (
         <main className="main">
             <section className="production__yarn">
                 <div className="container">
-                    <h2>Yarn</h2>
+                    <h2 className="title">Yarn</h2>
                     <div className="production__yarn-cards">
                         <div className="production__yarn-card">
                             <img src="/src/assets/yarn-1.jpg" alt="yarn-1"/>
