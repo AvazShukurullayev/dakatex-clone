@@ -1,13 +1,15 @@
+import "./ProductionKnittingPage.css"
+
 export const ProductionKnittingPage = () => {
     return (
         <main className="main">
             <section className="knitting">
                 <div className="container">
-                    <h2>Knitting Department</h2>
+                    <h2 className="title">Knitting Department</h2>
                     <div className="knitting__cards">
                         <div className="knitting__card">
                             <div className="knitting__card-image">
-                                <img src="/src/assets/knitted-fabric-1.jpeg" alt=""/>
+                                <img src="/src/assets/knitted-fabric-1.jpeg" alt="knitted-fabric-1" />
                             </div>
                             <div className="knitting__card-info">
                                 <h4>Culinary surface</h4>
